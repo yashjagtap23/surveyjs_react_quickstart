@@ -20,6 +20,8 @@ Open http://localhost:3000/ in your web browser.
 
 This template covers most basic use cases. You can find code examples for them in the following files:
 
+- Connect a Database
+  - https://surveyjs.io/form-library/documentation/how-to-store-survey-results#store-survey-results-in-your-own-database
 - Create a standalone survey
   - [src/data/survey_json.js](src/data/survey_json.js)
   - [src/pages/Survey.js](src/pages/Survey.js)

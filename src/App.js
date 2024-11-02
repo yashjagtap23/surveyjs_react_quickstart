@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
-import { HomePage } from "./pages/Home";
+
 import { SurveyPage } from "./pages/Survey";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -54,9 +54,6 @@ export default function SurveyJSReactApplication() {
             </div>
             <ul className="nav navbar-nav">
               <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
                 <Link to="/survey">Survey</Link>
               </li>
             </ul>
@@ -66,10 +63,10 @@ export default function SurveyJSReactApplication() {
         <div className="app-content">
           <Switch>
             <Route exact path="/">
-              <HomePage />
+            <SurveyPage />
             </Route>
             <Route path="/survey">
-              <SurveyPage />
+            <SurveyPage />
             </Route>
           </Switch>
         </div>

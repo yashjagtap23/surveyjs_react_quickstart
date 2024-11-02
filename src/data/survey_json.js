@@ -47,7 +47,13 @@ export const json = {
       type: "comment",
       name: "disappointed_experience",
       visibleIf: "{nps_score} notempty",
-      title: "What do you miss and find disappointing in your experience with our product?"
+      title: "What do you love in your experience with our product 22BC?"
+    },
+    {
+      type: "comment",
+      name: "disappointed_experience",
+      visibleIf: "{nps_score} notempty",
+      title: "What do you miss and find disappointing in your experience with our product 22BC?"
     }]
   }],
   showQuestionNumbers: "off"
